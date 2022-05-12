@@ -1,6 +1,6 @@
 module.exports.getDate = function getDate() {
   var aestTime = new Date().toLocaleString("en-US", {
-    timeZone: "Australia/Brisbane",
+    timeZone: "America/Montevideo",
   });
   return new Date(aestTime);
 };
